@@ -1,0 +1,15 @@
+{
+  "name": "trycatch_web",
+  "version": "1.0.0",
+  "description": "Welcome to the official website infrastructure of the TryCatch organization! This repository contains all the necessary components to deploy and maintain our public-facing website.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/:css/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.79.4"
+  }
+}

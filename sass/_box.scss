@@ -1,0 +1,107 @@
+@import "variables";
+
+// NORMAL
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+
+    .box-item {
+        width: 350px;
+        border: 2px solid $dark-red;
+        height: 250px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px;
+
+        .box-title {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        .box-icon {
+            text-align: center;
+            display: block;
+            font-size: 1.8rem;
+            color: $dark-red;
+        }
+
+        .box-p {
+            font-size: .7rem;
+            text-align: center;
+            margin: 10px 0 0 0;
+            color: rgba(0, 0, 0, .6);
+        }
+    }
+}
+
+// horizontal
+.horizontal-boxes {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .horizontal-item {
+        // width: 49%;
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        display: block;
+        border: 2px solid $dark-red;
+        border-radius: 20px;
+        background-position: top;
+        background-size: cover;
+        position: relative;
+        height: 300px;
+
+        h3 {
+            font-weight: 200;
+            display: inline-block;
+            margin: 0;
+            background-color: $dark-red;
+            color: #fff;
+            padding: 0 30px;
+            border-radius: 20px 0 20px 0;
+            border-bottom: 2px solid #fff;
+            border-right: 2px solid #fff;
+        }
+
+        .active-team {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            background-color: $dark-red;
+            padding: 5px 10px;
+            border-radius: 0 20px 0 20px;
+            border-bottom: 2px solid #fff;
+            border-left: 2px solid #fff;
+
+            span {
+                display: block;
+                text-align: center;
+                font-size: .6rem;
+                width: 100%;
+                color: #fff;
+                background-color: #000;
+                border-radius: 30px;
+            }
+
+            .img-cont {
+                height: 50px;
+                display: flex;
+                justify-content: center;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

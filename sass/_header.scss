@@ -1,0 +1,110 @@
+header {
+    background-image: linear-gradient(90deg, rgba(145,48,43,.7) 0%, rgba(145,48,43,.7) 100%), url(../asset/img/stock/dev-wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    &:hover {
+        #image-preview {
+            #off {
+                opacity: 0 !important;
+            }
+            #on {
+                opacity: 1 !important;
+            }
+        }
+    }
+
+    #navbar {
+        
+    }
+    #header {
+        height: 560px;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            background-image: url(../asset/img/stock/alt-design.png);
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 122px;
+        }
+
+        #show-case {
+            height: 100%;
+            .container {
+                height: 100%;
+                display: flex;
+                justify-content: left;
+                align-items: center;
+
+                #infos {
+                    // width: 50%;
+                    width: 100%;
+                    display: flex;
+                    gap: 12px;
+                    flex-direction: column;
+                    color: #fff !important;
+                    cursor: default;
+
+                    h3 {
+                        font-weight: 400;
+                        margin: 0;
+                        width: 100%;
+                        text-align: left;
+                    }
+
+                    h2 {
+                        margin: 0;
+                    }
+
+                    #butons {
+                        a {
+                            text-transform: uppercase;
+                            color: #fff;
+                            display: flex;
+                            gap: 5px;
+                            align-items: center;
+                            justify-content: center;
+                            width: max-content;
+                            font-size: .75rem;
+                            
+                            background-color: #fff;
+                            padding: 10px 10px;
+                            color: #000;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+                
+            }
+        }
+        #image-preview {
+            display: none;
+            width: 50%;
+            height: 100%;
+            position: relative;
+
+            #on {
+                opacity: 0;
+            }
+
+            #off {
+                opacity: 1;
+                transform: translate(-43.1%, -43%);
+            }
+
+            img {
+                z-index: 2;
+                position: absolute;
+                height: 100%;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                transition: .3s;
+            }
+        }
+    }
+}

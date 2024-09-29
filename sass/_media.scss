@@ -1,0 +1,96 @@
+/* MEDİA QERYS */
+@import 'variables';
+@media (min-width: 575.98px) { 
+    html {
+        font-size: 22px;
+    }
+    .container {
+        width: 78%;
+    }
+    #nav-link {
+        display: flex !important;
+    }
+    #image-preview {
+        display: block !important;
+        height: 280px !important;
+    }
+    #infos {
+        width: 50% !important;
+    }
+}
+
+@media (min-width: 767.98px) { 
+    html {
+        font-size: 23px;
+    }
+    .container {
+        width: 76%;
+    }
+    #image-preview {
+        display: block !important;
+        height: 380px !important;
+    }
+}
+
+@media (min-width: 991.98px) { 
+    html {
+        font-size: 24px !important;
+    }
+    .container {
+        width: 74%;
+    }
+    #image-preview {
+        display: block !important;
+        height: 480px !important;
+    }
+    #team {
+        &::before {
+            display: block !important;
+        }
+
+        &::after {
+            display: block !important;
+        }
+    }
+
+    .horizontal-item {
+        width: 49% !important;
+    }
+    #footer {
+        justify-content: space-between !important;
+    }
+}
+
+@media (min-width: 1199.98px) { 
+    html {
+        font-size: 25px;
+    }
+    .container {
+        width: 72%;
+    }
+    #image-preview {
+        display: block !important;
+        height: 100% !important;
+    }
+
+    .box-active {
+        background-color: $dark-red !important;
+        color: #fff !important;
+
+        .box-icon {
+            color: #fff !important;
+        }
+        .box-p {
+            color: #fff !important;
+        }
+    }
+}
+
+@media (min-width: 1399.98px) {
+    html {
+        font-size: 26px;
+    }
+    .container {
+        width: 70% !important;
+    }
+}

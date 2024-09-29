@@ -1,0 +1,40 @@
+#footer {
+    background-color: $dark-red;
+    padding: 5px 50px;
+    display: flex;
+    // justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    #copyright {
+        color: #fff;
+        font-size: .75rem;
+    }
+    
+    #links {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        font-size: .75rem;
+        gap: 20px;
+
+        li {
+            a {
+                color: #fff;
+            }
+        }
+
+        .git-page {
+            background-color: #fff;
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            justify-content: center;
+            
+            padding: 10px 10px;
+            color: #000;
+            border-radius: 5px;
+        }
+    }
+}
