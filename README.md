@@ -36,3 +36,14 @@ To get a local copy up and running, follow these simple steps:
 1. Clone the repo
    ```bash
    git clone https://github.com/no-added/no-added.git
+   ```
+
+
+## Contributing
+
+- [Mal1koRe1ss](https://github.com/Mal1koRe1ss)
+- [Pounter](https://github.com/p0unter)
+
+## Contact
+
+You can contact us via [Discord](https://discord.gg/trycatch) or [E-Mail](mailto:trycatchcommunity@gmail.com).
