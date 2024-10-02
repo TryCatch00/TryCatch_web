@@ -1,4 +1,8 @@
 @import "variables";
+* {
+    transition: .3s ease-out;
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -31,4 +35,18 @@ h3 {
 
 h2 {
     font-size: 1.3rem;
+}
+
+.button-transtion {
+    &:hover {
+        opacity: .7 !important;
+    }
+}
+
+.button-outline {
+    &:hover {
+        background-color: transparent !important;
+        border: 1px solid #000 !important;
+        color: #000 !important;
+    }
 }

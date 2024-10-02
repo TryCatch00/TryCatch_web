@@ -2,6 +2,7 @@ header {
     background-image: linear-gradient(90deg, rgba(145,48,43,.7) 0%, rgba(145,48,43,.7) 100%), url(../asset/img/stock/dev-wallpaper.jpg);
     background-position: center;
     background-size: cover;
+    padding-top: 100px;
     
     &:hover {
         #image-preview {

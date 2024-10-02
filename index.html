@@ -13,20 +13,20 @@
     <header>
         <nav id="navbar">
             <div class="container">
-                <div id="nav-brand">
+                <a href="index.html" id="nav-brand" class="button-transtion">
                     <div id="navbar-logo">
                         <img src="asset/img/pin/trychatch.svg">
                     </div>
-                    <div id="nav-title">
+                    <div id="nav-title" style="cursor: pointer;">
                         TRY<span>Catch</span>
                     </div>
-                </div>
+                </a>
                 <ul id="nav-link">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="#what-do">About</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li id="github-link"><a href="https://github.com/TryCatch00" target="_blank"><i class="ri-github-fill"></i>Github Page</a></li>
+                    <li class="active" onclick="borderButtonChange(this)"><a href="#header">Home</a></li>
+                    <li onclick="borderButtonChange(this)"><a href="#what-do">About</a></li>
+                    <li onclick="borderButtonChange(this)"><a href="#team">Team</a></li>
+                    <li onclick="borderButtonChange(this)"><a href="#projects">Projects</a></li>
+                    <li id="github-link"><a href="https://github.com/TryCatch00" target="_blank" class="button-transtion"><i class="ri-github-fill"></i>Github Page</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,7 +37,7 @@
                         <h3>TRY CATCH SOFTWARE</h3>
                         <h2>We want to support you by sharing our knowledge & experiences.</h2>
                         <div id="butons">
-                            <a href="https://github.com/TryCatch00" target="_blank"><i class="ri-github-fill"></i>Github Page</a>
+                            <a href="https://github.com/TryCatch00" target="_blank" class="button-transtion"><i class="ri-github-fill"></i>Github Page</a>
                         </div>
                     </div>
                     <div id="image-preview">
@@ -50,7 +50,7 @@
     </header>
     <div id="content">
         <div id="what-do">
-            <div class="container">,
+            <div class="container">
                 <h2 class="title">What are we doing?</h2>
                 <p class="title-alt">The way we work.</p>
                 <div class="boxes">
@@ -82,16 +82,26 @@
             <div class="container">
                 <h2 class="title">our team</h2>
                 <p class="title-alt">Our volunteers today.</p>
-                <div class="boxes">
-                    <div class="box-item">
-                        <img src="asset/img/pin/pounter.png" alt="">
-                        <h3 class="box-title">Pounter</h3>
-                        <a href="https://github.com/p0unter" target="_blank" class="git-account"><i class="ri-github-fill"></i>Github Account</a>
+                <div class="team-boxes">
+                    <div class="team-box">
+                        <div class="user-img">
+                            <img class="team-user-tumb" src="asset/img/pin/lewis-hamilton.gif" alt="Pounter">
+                        </div>
+                        <div class="team-user-info-cont">
+                            <h2 class="title">POUNTER</h2>
+                            <p class="title-alt">OWNER</p>
+                            <a href="#" class="github-account"><i class="ri-github-fill"></i> Github</a>
+                        </div>
                     </div>
-                    <div class="box-item">
-                        <img src="asset/img/pin/mal1kore1ss.png" alt="">
-                        <h3 class="box-title">Mal1kore1ss</h3>
-                        <a href="https://github.com/Mal1koRe1ss" target="_blank" class="git-account"><i class="ri-github-fill"></i>Github Account</a>
+                    <div class="team-box">
+                        <div class="user-img">
+                            <img class="team-user-tumb" src="asset/img/pin/tyler-durden.gif" alt="Pounter">
+                        </div>
+                        <div class="team-user-info-cont">
+                            <h2 class="title">mal1kore1ss</h2>
+                            <p class="title-alt">OWNER</p>
+                            <a href="#" class="github-account"><i class="ri-github-fill"></i> Github</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -123,7 +133,7 @@
                         </div>
                     </a>
                 </div>
-                <a href="#" class="more">MORE</a>
+                <a href="#" class="more button-outline">MORE</a>
             </div>
         </div>
     </div>
@@ -132,8 +142,10 @@
         <ul id="links">
             <li><a href="#what-do">About</a></li>
             <li><a href="#team">Team</a></li>
-            <li><a href="https://github.com/TryCatch00" target="_blank" class="git-page"><i class="ri-github-fill"></i>Github Page</a></li>
+            <li><a href="https://github.com/TryCatch00" target="_blank" class="git-page button-transtion"><i class="ri-github-fill"></i>Github Page</a></li>
         </ul>
     </footer>
+
+    <script src="js/navbar.js"></script>
 </body>
 </html>

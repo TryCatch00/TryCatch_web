@@ -40,6 +40,71 @@
     }
 }
 
+// Team
+.team-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .team-box {
+        height: 350px;
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 50px;
+
+        .user-img {
+            overflow: hidden;
+            width: 80%;
+            height: 100%;
+
+            .team-user-tumb {
+                height: 100%;
+            }
+        }
+
+        .team-user-info-cont {
+            background-color: #fff;
+            border-radius: 50px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            transform: translateY(30%);
+            overflow: hidden;
+
+            h2 {
+                color: #000 !important;
+            }
+
+            p {
+                color: #000 !important;
+                margin: 0 !important;
+            }
+
+            .github-account {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-top: 1px solid #000;
+
+                transition: .3s ease-out;
+                &:hover {
+                    background-color: #000;
+                    color: #fff;
+                    border-radius: 50% 50% 0 0;
+                }
+
+                i {
+                    font-size: 1rem !important;
+                }
+            }
+        }
+    }
+}
+
 // horizontal
 .horizontal-boxes {
     display: flex;
@@ -58,6 +123,10 @@
         background-size: cover;
         position: relative;
         height: 300px;
+
+        &:hover {
+            transform: translateY(-3%)
+        }
 
         h3 {
             font-weight: 200;
