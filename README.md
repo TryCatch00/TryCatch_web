@@ -35,7 +35,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/no-added/no-added.git
+   git clone https://github.com/TryCatch00/TryCatch_web.git
    ```
 
 
