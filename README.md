@@ -15,6 +15,7 @@ Welcome to the official website infrastructure of the TryCatch organization! Thi
 ## About the Project
 
 This project serves as the foundational infrastructure for the TryCatch organization's website. It is designed to be user-friendly, responsive, and maintainable, allowing for easy updates and enhancements.
+(Click Me For visit.)[https://trycatch00.github.io/trycatch.github.io/]
 
 ## Features
 
@@ -35,7 +36,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/TryCatch00/TryCatch_web.git
+   git clone https://github.com/TryCatch00/trycatch.github.io.git
    ```
 
 
